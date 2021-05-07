@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #97d4fc;
+}
+
+.page {
+  background-color: #97d4fc;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: #a1d4ff;
+}
+
+.title {
+  padding-left: 10px;
+}
+
+.home-link {
+  padding-right: 10px;
+}
+
+.sidebar {
+  padding-top: 100px;
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  background-color: #61b0ff;
+}
+
+.sidebar-list {
+  padding-left: 10px;
+}
+
+.sidebar-item {
+  padding-top: 100px;
+}
+
+.first-sidebar-item {
+  padding-top: 70px;
+}
+
+.topic-photo {
+  height: 500px;
+  width: 100%;
+  padding-left: 80px;
+  object-fit: cover;
+}
+
+.recipe {
+  font-size: 18px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+
+.ingredients-container,
+.recipe-container {
+  padding-bottom: 20px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0821d;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #854500;
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 13px;
+  height: 60px;
+  background-color: #a1d4ff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #0000EE;
+}
+
+.my-mail {
+  padding-bottom: 5px;
+}
